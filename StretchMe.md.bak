@@ -10,4 +10,4 @@ You will want to continue adding on to this solution. I would suggest starting b
 
 You will need add a Menu bar that will feature all the actions available on your console menu. You will need to create a form for each input area of your existing console application.
 
-The sample template includes many comments that will help you figure out what code needs to be added and where. It features a DialogBox, an intake form, and an example of using a delegate handler.
+The sample template includes many comments that will help you figure out what code needs to be added
