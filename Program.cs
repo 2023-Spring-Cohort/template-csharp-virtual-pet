@@ -1,12 +1,4 @@
-﻿using System;
+﻿using template_csharp_virtual_pet;
+// Your application code here.
 
-namespace template_csharp_virtual_pet
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+Console.WriteLine("Hello World!");
