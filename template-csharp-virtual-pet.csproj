@@ -9,8 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="template-csharp-virtual-pet-tests\**" />
     <Compile Remove="virtual-pet-tests\**" />
+    <EmbeddedResource Remove="template-csharp-virtual-pet-tests\**" />
     <EmbeddedResource Remove="virtual-pet-tests\**" />
+    <None Remove="template-csharp-virtual-pet-tests\**" />
     <None Remove="virtual-pet-tests\**" />
   </ItemGroup>
 
