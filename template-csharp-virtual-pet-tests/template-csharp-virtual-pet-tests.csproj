@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\template-csharp-virtual-pet\template-csharp-virtual-pet.csproj" />
+    <ProjectReference Include="..\template-csharp-virtual-pet.csproj" />
   </ItemGroup>
 
 </Project>
