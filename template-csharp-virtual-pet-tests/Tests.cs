@@ -33,7 +33,7 @@ namespace virtual_pet_tests
         }
 
         [Test]
-        public void Constructor_Should_Return_Initial_Hunger_Level_Of_50()
+        public void Constructor_Should_Return_Initial_Hunger_Level_Of_60()
         {
             // Assert.AreEqual(60, testPet.Hunger);
         }
@@ -45,30 +45,30 @@ namespace virtual_pet_tests
         }
 
         [Test]
-        public void Constructor_Should_Return_Initial_Health_Level_Of_30()
+        public void Constructor_Should_Return_Initial_Health_Level_Of_60()
         {
             // Assert.AreEqual(60, testPet.Health);
         }
 
         [Test]
-        public void Feed_Should_Decrease_Hunger_By_40()
+        public void Feed_Should_Decrease_Hunger_By_10()
         {
             // testPet.Feed();
-            // Assert.AreEqual(10, testPet.GetHunger());
+            // Assert.AreEqual(50, testPet.GetHunger());
         }
 
         [Test]
         public void SeeDoctor_Should_Increase_Health_By_30()
         {
             // testPet.SeeDoctor();
-            // Assert.AreEqual(60, testPet.GetHealth());
+            // Assert.AreEqual(90, testPet.GetHealth());
         }
 
         [Test]
         public void Play_Should_Increase_Hunger_By_10()
         {
             // testPet.Play();
-            // Assert.AreEqual(60, testPet.GetHunger());
+            // Assert.AreEqual(70, testPet.GetHunger());
         }
 
         [Test]
@@ -82,14 +82,14 @@ namespace virtual_pet_tests
         public void Play_Should_Increase_Health_By_10()
         {
             // testPet.Play();
-            // Assert.AreEqual(40, testPet.GetHealth());
+            // Assert.AreEqual(70, testPet.GetHealth());
         }
 
         [Test]
         public void Tick_Should_Increase_Hunger_By_5()
         {
             // testPet.Tick();
-            // Assert.AreEqual(55, testPet.GetHunger());
+            // Assert.AreEqual(65, testPet.GetHunger());
         }
 
         [Test]
@@ -103,7 +103,7 @@ namespace virtual_pet_tests
         public void Tick_Should_Decrease_Health_By_5()
         {
             // testPet.Tick();
-            // Assert.AreEqual(25, testPet.GetHealth());
+            // Assert.AreEqual(55, testPet.GetHealth());
         }
     }
 }
