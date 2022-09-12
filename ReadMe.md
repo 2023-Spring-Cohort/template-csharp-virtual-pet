@@ -27,6 +27,7 @@ In order to receive a PASSING grade, all of the following principles must be met
 ## Iteration 1
 
 - Start with a pet class. Then use the Pet class and the Program class to do the following tasks:
+  - NOTE: Start with the Pet class and use TDD in the Test project provided to set up the properties and methods of your pet class. Make all tests pass before continuing. 
   - An interactive user interface (in short, make a menu)
   - Ability for players to enter the game, play as long as they’d like, and leave the game when they want
   - Ability for players to create a pet by putting in a name and species for said pet
